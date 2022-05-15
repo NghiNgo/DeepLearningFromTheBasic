@@ -10,7 +10,7 @@ from dataset.mnist import load_mnist
 network = DeepConvNet()
 network.load_params("deep_convnet_params.pkl")
 
-sampled = 10000
+sampled = 10000 
 x_test = x_test[:sampled]
 t_test = t_test[:sampled]
 
